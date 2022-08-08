@@ -24,7 +24,7 @@ define( 'WP_SETUP_CONFIG', true );
  *
  * Set this to error_reporting( -1 ) for debugging
  */
-error_reporting( 0 );
+error_reporting( -1 );
 
 if ( ! defined( 'ABSPATH' ) ) {
 	define( 'ABSPATH', dirname( __DIR__ ) . '/' );
